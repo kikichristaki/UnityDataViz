@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{83C28795-2844-426F-5DA6-E11310776C07}") = "Graphs1", "Assembly-CSharp.csproj", "{C141138B-6887-BE3A-1577-47895546E872}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C141138B-6887-BE3A-1577-47895546E872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C141138B-6887-BE3A-1577-47895546E872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C141138B-6887-BE3A-1577-47895546E872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C141138B-6887-BE3A-1577-47895546E872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
