@@ -45,12 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Grapher1.cs" />
-     <Compile Include="Assets\Grapher2.cs" />
-     <Compile Include="Assets\Grapher3.cs" />
-     <Compile Include="Assets\Grapher4.cs" />
-     <Compile Include="Assets\Grapher5.cs" />
      <Compile Include="Assets\Scripts\AxisXYZ.cs" />
+     <Compile Include="Assets\Scripts\Grapher1.cs" />
+     <Compile Include="Assets\Scripts\Grapher2.cs" />
+     <Compile Include="Assets\Scripts\Grapher3.cs" />
+     <Compile Include="Assets\Scripts\Grapher4.cs" />
+     <Compile Include="Assets\Scripts\Grapher5.cs" />
      <Compile Include="Assets\Scripts\ZoomCam.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

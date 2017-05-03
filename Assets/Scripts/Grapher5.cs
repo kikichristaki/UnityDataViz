@@ -72,7 +72,7 @@
 
      public void Read()
     {
-        string path = "Assets/data1.csv";
+        string path = "Assets/Scripts/data1.csv";
         string line;
         int index = 0;
 
