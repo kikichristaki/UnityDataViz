@@ -9,8 +9,8 @@
  {
      ParticleSystem.Particle[] cloud;
      bool bPointsUpdated = false;
-	 public	Vector3[] positionArray = new Vector3[8];
-	 public Color[] colors = new Color[8]; 
+	 public	Vector3[] positionArray = new Vector3[9];
+	 public Color[] colors = new Color[9]; 
 	 
      void Start ()
      {
@@ -68,6 +68,8 @@
         colors[5] = Color.red;
         colors[6] = Color.green;
         colors[7] = Color.magenta;
+        colors[8] = Color.red;
+
      }
 
      public void Read()

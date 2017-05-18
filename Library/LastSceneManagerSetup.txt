@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Graph1.unity
+- path: Assets/WithJs.unity
   isLoaded: 1
   isActive: 1

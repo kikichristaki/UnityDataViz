@@ -52,6 +52,8 @@
      <Compile Include="Assets\Scripts\Grapher4.cs" />
      <Compile Include="Assets\Scripts\Grapher5.cs" />
      <Compile Include="Assets\Scripts\ZoomCam.cs" />
+     <Compile Include="Assets\Scripts\graphMarker.cs" />
+     <None Include="Assets\Scripts\Javascript\random.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

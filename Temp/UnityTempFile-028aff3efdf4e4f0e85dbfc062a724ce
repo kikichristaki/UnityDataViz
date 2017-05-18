@@ -77,12 +77,13 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_OSX
-'Assets/Grapher1.cs'
-'Assets/Grapher2.cs'
-'Assets/Grapher3.cs'
-'Assets/Grapher4.cs'
 'Assets/Scripts/AxisXYZ.cs'
+'Assets/Scripts/Grapher1.cs'
+'Assets/Scripts/Grapher2.cs'
+'Assets/Scripts/Grapher3.cs'
+'Assets/Scripts/Grapher4.cs'
 'Assets/Scripts/Grapher5.cs'
 'Assets/Scripts/ZoomCam.cs'
+'Assets/Scripts/graphMarker.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
