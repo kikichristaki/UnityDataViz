@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{83C28795-2844-426F-5DA6-E11310776C07}") = "Graphs1", "Assembly-CSharp.csproj", "{C141138B-6887-BE3A-1577-47895546E872}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs1", "Assembly-CSharp.csproj", "{C141138B-6887-BE3A-1577-47895546E872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

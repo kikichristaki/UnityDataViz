@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/WithJs.unity
+- path: Assets/WithMarker.unity
   isLoaded: 1
   isActive: 1

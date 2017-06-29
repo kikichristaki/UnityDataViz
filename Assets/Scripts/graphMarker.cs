@@ -9,7 +9,7 @@ public class graphMarker : MonoBehaviour {
 
 
 	public  TextAsset theSourceFile ;
-	public Transform marker;
+	public GameObject marker;
 	public int xColumn;
 	public int yColumn;
 	public int zColumn;
@@ -32,7 +32,7 @@ public class graphMarker : MonoBehaviour {
 
 
 		string[] tokens = myText.Split('#');
-		Debug.Log(tokens.Length);
+		//Debug.Log(tokens.Length);
 
 		for (int ii = 0; ii < tokens.Length -1; ++ii)
 		{
@@ -43,18 +43,18 @@ public class graphMarker : MonoBehaviour {
 		for (int i=0; i< myList.Count; i++){
 			List<string> dataList = new List<string>();
 
-			Debug.Log(myList[i]);
-			string[] tokens2 = myList[i].Split('\t');
+			//Debug.Log(myList[i]);
+			string[] tokens2 = myList[i].Split(',');
 
 			// dataList = myList[i].Split("\t");  //split each line into columns
 
 			for  (int j=0; j< tokens2.Length -1; j++){
 			 	dataList.Add(tokens2[j]);
-				Debug.Log(dataList[j]);
+				//Debug.Log(dataList[j]);
 
 			 }
 		 	if (dataList.Count > 1){
-		 		Debug.Log(dataList[xColumn]);
+		 		//Debug.Log(dataList[xColumn]);
 				float x = float.Parse(dataList[xColumn]) ;
 				float y = float.Parse (dataList[yColumn]);
 				float z = float.Parse (dataList[zColumn]);
@@ -74,6 +74,22 @@ public class graphMarker : MonoBehaviour {
 
 					// Use Instantiate to make a copy of the 3D marker at the desired location
 				GameObject myMarker   = Instantiate (marker, vectoras , Quaternion.identity) as GameObject;
+				if (y<21){
+					myMarker.GetComponent<Renderer>().material.color = Color.blue ;
+				}
+				else if (y >= 21 && y <41){
+					myMarker.GetComponent<Renderer>().material.color = Color.cyan ;
+				}
+				else if (y >= 41 && y <61){
+					myMarker.GetComponent<Renderer>().material.color = Color.green ;
+				}
+ 				else if (y >= 61 && y <81){
+					myMarker.GetComponent<Renderer>().material.color = Color.yellow ;
+ 				}
+ 				else {
+ 					myMarker.GetComponent<Renderer>().material.color = Color.red ;
+
+ 				}
 					// Send a message to the marker's LabelItems script, calling the SetTect function to set the label's text
 					//myMarker.SendMessage ("SetText" , myLabel. SendMessageOptions.DontRequireReceiver);
 
