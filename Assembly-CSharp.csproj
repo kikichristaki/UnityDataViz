@@ -52,6 +52,8 @@
      <Compile Include="Assets\Scripts\Grapher3.cs" />
      <Compile Include="Assets\Scripts\Grapher4.cs" />
      <Compile Include="Assets\Scripts\Grapher5.cs" />
+     <Compile Include="Assets\Scripts\Grid.cs" />
+     <Compile Include="Assets\Scripts\Grid2.cs" />
      <Compile Include="Assets\Scripts\Planes\PlaneXY.cs" />
      <Compile Include="Assets\Scripts\Planes\PlaneXZ.cs" />
      <Compile Include="Assets\Scripts\Planes\PlaneYZ.cs" />

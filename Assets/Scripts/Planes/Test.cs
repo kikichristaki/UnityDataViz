@@ -6,9 +6,9 @@ public class Test : MonoBehaviour {
 	public Material planeMat;
 
 	void Start () {
-		PlaneXY.CreatePlane(50, 50, planeMat);
-		PlaneYZ.CreatePlane(50, 50, planeMat);
-		PlaneXZ.CreatePlane(50, 50, planeMat);
+		PlaneXY.CreatePlane(100, 100, planeMat);
+		PlaneYZ.CreatePlane(100, 100, planeMat);
+		PlaneXZ.CreatePlane(100, 100, planeMat);
 
 
 	}
