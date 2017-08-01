@@ -21,8 +21,7 @@ public class graphMarker : MonoBehaviour {
 
 	public Vector2 axesMinMax = new  Vector2(0, 100);  //smallest/largest virtual units for display area
 
-
-
+	public pointClass point ;
 
 	// Use this for initialization
 	void Start () {
@@ -74,6 +73,14 @@ public class graphMarker : MonoBehaviour {
 
 					// Use Instantiate to make a copy of the 3D marker at the desired location
 				GameObject myMarker   = Instantiate (marker, vectoras , Quaternion.identity) as GameObject;
+				pointClass point = myMarker.GetComponent<pointClass> ();
+				point.xPosition = x;
+				point.yPosition = y;
+				point.zPosition = z;
+				//pointClass point = new pointClass(x);
+				//point.name = vectoras.x;
+
+				//temp.GetComponent<this>().cell;
 				if (y<21){
 					myMarker.GetComponent<Renderer>().material.color = Color.blue ;
 				}
