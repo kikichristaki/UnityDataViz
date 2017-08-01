@@ -9,10 +9,6 @@ public class itemTextControl : MonoBehaviour {
 	Camera cam;
 	 //public Transform target;
 
-	void Start()
-	{
-		//pointClass pc = GetComponent<pointClass> ();
-	}
 
 	void OnMouseEnter()
 	{
