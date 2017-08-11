@@ -30,7 +30,8 @@ public class graphMarker : MonoBehaviour {
 		List<string> myList = new List<string>();
 
 
-		string[] tokens = myText.Split('#');
+		//string[] tokens = myText.Split('#');
+		string[] tokens = myText.Split("\n"[0]);
 		//Debug.Log(tokens.Length);
 
 		for (int ii = 0; ii < tokens.Length -1; ++ii)

@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\ZoomCam.cs" />
      <Compile Include="Assets\Scripts\graphMarker.cs" />
      <Compile Include="Assets\Scripts\hoverTest.cs" />
+     <Compile Include="Assets\Scripts\irisGraphMarker.cs" />
      <Compile Include="Assets\Scripts\itemTextControl.cs" />
      <Compile Include="Assets\Scripts\pointClass.cs" />
      <None Include="Assets\Scripts\Data\MockData100.txt" />
