@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
- using UnityEditor;
- using System.IO; 
+using System.IO; 
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class graphMarker : MonoBehaviour {
 

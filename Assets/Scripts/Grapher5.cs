@@ -2,8 +2,12 @@
  using System.Collections;
  using System.Collections.Generic;
 
- using UnityEditor;
+ //using UnityEditor;
  using System.IO; 
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
  public class Grapher5 : MonoBehaviour
  {
