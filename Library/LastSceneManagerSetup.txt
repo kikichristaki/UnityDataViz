@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/3D Surface.unity
-  isLoaded: 1
-  isActive: 1
